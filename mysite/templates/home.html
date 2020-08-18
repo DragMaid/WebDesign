@@ -1,0 +1,141 @@
+{% load static %}
+<!Doctype html>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <title>MaidStudy Website</title>
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <header>  
+      <nav class="navbar navbar-dark bg-dark">
+        <h1><a class="navbar-brand" href="#">@MaidStudy</a></h1>
+      </nav>
+    </header>
+    <div class="container-fluid text-center cover" id="bg-container">
+      <section class="Title-tag">
+        <h1 class="Title-text-tag">Maid Study</h1>
+        <p class="Text-detail-tag">The best focus app on the market</p>
+      </section>
+
+        <input id="Dbtn" type="image" src="{% static 'Dbtn.png' %}">
+    </div>
+    <div class="container text-center" style="width: 80%;">
+      <h1 class="section-title-tag">With all stunning features</h1>
+      <div class="row">
+        <div class="col-md-4 sm-12 p-0">
+          <div class="card card-tag">
+            <img class="card-img-top image-tag" src="{% static 'priority.svg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Priority</h5>
+              <p class="card-text">
+                Set up your main goals for the day before getting to work. This in which will help a lot later on.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 sm-12 p-0">
+          <div class="card card-tag">
+            <img class="card-img-top image-tag" src="{% static 'pomotimer.svg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Pomodoro timer</h5>
+              <p class="card-text">
+                Manage your time with the pomodoro timer! Be more focused, productive during your study/training sessions. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 sm-12 p-0">
+          <div class="card card-tag">
+            <img class="card-img-top image-tag" src="{% static 'growth.svg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tracking</h5>
+              <p class="card-text">
+                Keep track of your proccess with our tracking system. Stay motivated with your work displayed into a chart everyweek.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>       
+      <div class="row">
+        <div class="col-md-4 sm-12 p-0">
+          <div class="card card-tag">
+            <img class="card-img-top image-tag" src="{% static 'checklist.svg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">To-do List</h5>
+              <p class="card-text">
+                Organise your task with a To-do List, you'll have a clear goal of what to do and also how far you've gone throughout a project!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 sm-12 p-0">
+          <div class="card card-tag">
+            <img class="card-img-top image-tag" src="{% static 'gear.svg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Settings</h5>
+              <p class="card-text">
+                You can even customize the app to fit your interest! Make it the most comfortable place for you to study with.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 sm-12 p-0">
+          <div class="card card-tag">
+            <img class="card-img-top image-tag" src="{% static 'maintenance.svg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Open Source</h5>
+              <p class="card-text">If you can write codes, maybe consider contributing to our project and share your ideas as well as correct each other programming error. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <h1 class="section-title-tag">Why should you choose us?</h1>
+      <div class="row"  style="margin-top: 100px;">
+        <div class="col-md-7 sm-12">
+          <section>
+            <h1>Fast and Easy to use</h1>
+            <p>
+              We, designers, care a lot about our user's satisfaction. That which includes speed and efficiency, still, we also like to keep things simple! It provides a wide range of functions and techniques that have been simplified and now usable within a few clicks. So everyone at any age can all use it to serve their purpose. If you are looking for a self-improve app to use, why not try us out?
+            </p>
+          </section>
+        </div> 
+        <div class="col-md-5 sm-12">
+          <img class="side-image-tag" src="{% static 'rocket.svg' %}" alt="image">
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px">
+        <div class="col-md-5 sm-12">
+          <img class="side-image-tag" src="{% static 'coin.svg' %}" alt="image">
+        </div>
+        <div class="col-md-7 sm-12">  
+          <section>
+            <h1>It's Free</h1>
+            <p>
+              While many of the paid apps out there aren't worth the money, MaidStudy gives you a full free version of itself without anything for exchange! We are an organization trying to make the world a better place. In that case, there should be no limit to your contribution in using or improving our app!
+            </p>
+          </section>
+        </div> 
+      </div>
+    </div>
+    <div class="container-fluid p-0 bg2">
+      <div class="cover2">
+        <div class="context text-center">
+          <h1>Source Code</h1>
+          <p>
+            Try looking at our code and don't be shy to send us feed back! We're still learning and there's no better way to learn more than from experts like you.
+          </p>
+        </div>
+      </div>
+      <button  onclick=" window.open('https://www.youtube.com/watch?v=Wl959QnD3lM', '_blank')" id="Sourcebtn" type="button" class="btn btn-success">Get started</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<!--This is a comment-->
+
+<html lang="en">
+    <head>
+        <title>My Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <style>
+            .my-container{
+                border: 3px solid green;
+                position: relative;
+                width: 100%;
+
+            }
+
+            .my-row{
+                border: 3px solid red;
+            }
+            .my-col{
+                border: 3px solid blue;
+            }
+            .my-btn{
+                  width:400px;
+                  position: absolute;
+                  top: 65%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+
+            }
+            .my-btn:hover{
+                background-color: black;
+            }
+
+            .title-h1{
+                  text-align: justify;
+                  position: absolute;
+                  top: 20%;
+                  left: 50%;
+                  padding: 12px 24px;
+                  text-align:center;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+            }
+            .detail-h3{
+                  position: absolute;
+                  top: 35%;
+                  left: 50%;
+                  text-align:center;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <ul class="navbar-nav">
+                <h4 class="nav-item active">
+                    <a class="nav-link" href="#">MaidStudy@</a>
+                </h4>
+        </header>
+        </nav>
+        <div class="container-fluid my-container">
+            <h1 class="title-h1">Maid Study</h1>
+            <h3 class="detail-h3">Eliminate all procrastination for a better life!</h3>
+            <img src="{% static 'workDesk.jpg' %}" alt="Error" style="width:100%;height:700px">
+            <input class="my-btn" type="image" src="{% static 'Dbtn.png' %}">
+        </div>
+        {% block content %}
+            replaced
+        {% endblock %}
+    </body>
+</html>

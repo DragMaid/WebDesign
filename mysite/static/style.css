@@ -1,0 +1,107 @@
+.h3-tag{
+	color: white;
+}
+
+.body{
+	background-color: green;
+}
+
+.title-type{
+	color: red;
+	background-color: blue;
+}
+
+.text-type{
+	color: grey;
+	background-color: pink;
+}
+
+#Dbtn{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	width: 50%;
+	max-width: 400px;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.cover{
+	height: 51rem;
+	width: 100%;
+	background-image: url("workDesk.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Title-tag{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Title-text-tag{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 8vw;
+}
+
+.Text-detail-tag{
+	font-size: 3vw;
+}
+.section-title-tag{
+	margin: 20px;
+}
+
+.image-tag{
+	padding: 10px;
+	height: 200px;
+
+}
+.card-tag:hover {
+	border-color: red;
+}
+
+.side-image-tag{
+	height: 250px;
+	padding: 10px;
+}
+
+#bg-container{
+	position: relative;
+}
+
+.bg2{
+	position: relative;
+	height: 20rem;
+	width: 100%;
+	background-image: url("Teambg.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cover2{
+	padding-top: 30px;	
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+	width: 100
+}
+
+.cover2 .context>h1{
+	color: whitesmoke
+} 
+
+.cover2 .context>p{
+	color: whitesmoke
+} 
+
+#Sourcebtn{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	width: 40%;
+	height: 20%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	border-radius: 30px;
+}
